@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/devongovett/system-fonts.svg)](https://travis-ci.org/devongovett/system-fonts)
+[![Actions Status](https://github.com/gilsaaj/system-fonts/workflows/Node.js%20CI/badge.svg)](https://github.com/gilsaaj/system-fonts/actions)
 
 # system-fonts
 > Forked due to inactivity on [font-manager](https://github.com/foliojs/font-manager) repo causing the package to break with node >12.x.x. <br/> Piggybacking of PR https://github.com/foliojs/font-manager/pull/46 to fix this error.
