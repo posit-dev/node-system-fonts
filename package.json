@@ -1,6 +1,6 @@
 {
   "name": "system-fonts",
-  "version": "0.3.1",
+  "version": "1.0.0",
   "description": "Provides access to the system font catalog",
   "main": "index.js",
   "types": "index.d.ts",
