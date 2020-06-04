@@ -1,5 +1,5 @@
 {
-  "name": "system-fonts",
+  "name": "node-system-fonts",
   "version": "1.0.0",
   "description": "Provides access to the system font catalog",
   "main": "index.js",
@@ -17,7 +17,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jgilsaa/system-fonts.git"
+    "url": "https://github.com/jgilsaa/node-system-fonts.git"
   },
   "keywords": [
     "font",
@@ -30,7 +30,7 @@
   "license": "MIT",
   "gypfile": true,
   "bugs": {
-    "url": "https://github.com/jgilsaa/system-fonts.git/issues"
+    "url": "https://github.com/jgilsaa/node-system-fonts.git/issues"
   },
-  "homepage": "https://github.com/jgilsaa/system-fonts.git"
+  "homepage": "https://github.com/jgilsaa/node-system-fonts.git"
 }

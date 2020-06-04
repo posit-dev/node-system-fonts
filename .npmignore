@@ -2,6 +2,6 @@
 .github/
 build/
 node_modules/
-tests/
+test/
 package-lock.json
 
