@@ -39,6 +39,7 @@ async function build(
 				dist = file.to;
 			}
 
+			console.log(`Copying ${source} to ${path.join(output, dist)}`);
 			fs.copy(source, path.join(output, dist));
 		}
 

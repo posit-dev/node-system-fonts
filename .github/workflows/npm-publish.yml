@@ -4,6 +4,8 @@
 name: Node.js Package
 
 on:
+  release:
+    types: [created]
   push:
     tags:
       - v*.*.*
@@ -29,7 +31,7 @@ jobs:
         with:
           node-version: 12
           registry-url: https://registry.npmjs.org/
-      - run: npm ci
+      - run: ls ./dist
       - run: npm publish ./dist
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
