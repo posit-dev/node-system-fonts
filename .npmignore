@@ -1,7 +1,7 @@
 .DS_Store
+.github/
 build/
 node_modules/
-.travis.yml
-appveyor.yml
-travis-linux.sh
-travis-osx.sh
+tests/
+package-lock.json
+
