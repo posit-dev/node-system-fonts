@@ -1,7 +1,5 @@
-![Node.js CI](https://github.com/jgilsaa/node-system-fonts/workflows/Node.js%20CI/badge.svg?branch=master)
-
-# node-system-fonts
-> Forked due to inactivity on [font-manager](https://github.com/foliojs/font-manager) repo causing the package to break with node >12.x.x. <br/> Piggybacking of PR https://github.com/foliojs/font-manager/pull/46 to fix this error.
+# read-system-fonts
+> Forked due to inactivity on [node-system-fonts](https://github.com/jgilsaa/node-system-fonts).
 
 
 A C++ module for Node.js providing access to the system font catalog.
@@ -20,9 +18,9 @@ A C++ module for Node.js providing access to the system font catalog.
 
 ## Installation
 
-Installation of the `node-system-fonts` module is via npm:
+Installation of the `read-system-fonts` module is via npm:
 
-    npm install node-system-fonts
+    npm install https://github.com/posit-dev/read-system-fonts#v1.0.2
 
 On Linux, you also may need to install the `libfontconfig-dev` package, for example:
 
@@ -30,18 +28,18 @@ On Linux, you also may need to install the `libfontconfig-dev` package, for exam
 
 ## API
 
-You load the `node-system-fonts` module using `require` as with all Node modules:
+You load the `read-system-fonts` module using `require` as with all Node modules:
 
 ```javascript
-var fontManager = require('node-system-fonts');
+var fontManager = require('read-system-fonts');
 ```
 
-All of the methods exported by `node-system-fonts` have both synchronous and asynchronous versions available.
+All of the methods exported by `read-system-fonts` have both synchronous and asynchronous versions available.
 You should generally prefer the asynchronous version as it will allow your program to continue doing other
 processing while a request for fonts is processing in the background, which may be expensive depending on
 the platform APIs that are available.
 
-- [node-system-fonts](#node-system-fonts)
+- [read-system-fonts](#read-system-fonts)
   - [Features](#features)
   - [Platforms](#platforms)
   - [Installation](#installation)
